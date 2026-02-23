@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThroneVerse Studios | Kenyan Thrones</title>
+    <meta name="description" content="ThroneVerse Studios - Creating Kenyan Thrones, an epic African fantasy RPG. Nairobi-based game development studio.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="throne-icon">👑</div>
+            <div class="loader-text">ENTERING THE THRONEVERSE</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">👑</span>
+                <span class="logo-text">THRONEVERSE</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#game" class="nav-link">The Game</a></li>
+                <li><a href="#trailer" class="nav-link">Trailer</a></li>
+                <li><a href="#studio" class="nav-link">Studio</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#newsletter" class="btn btn-primary">Join Alpha</a>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">🎮</span>
+                <span>Coming 2025</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line">KENYAN</span>
+                <span class="title-line accent">THRONES</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                An epic African fantasy RPG where ancient kingdoms collide. 
+                Forge your legacy in the ThroneVerse.
+            </p>
+
+            <div class="hero-cta">
+                <a href="#trailer" class="btn btn-glow btn-large">
+                    <span class="btn-icon">▶</span>
+                    Watch Trailer
+                </a>
+                <a href="#newsletter" class="btn btn-outline btn-large">
+                    Join the Kingdom
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="50000">0</span>
+                    <span class="stat-label">Wishlist Signups</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="12">0</span>
+                    <span class="stat-label">Playable Kingdoms</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="100">0</span>
+                    <span class="stat-label">Hours of Story</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Game Showcase Section -->
+    <section id="game" class="game-section">
+        <div class="section-header">
+            <span class="section-tag">THE EXPERIENCE</span>
+            <h2 class="section-title">Enter the <span class="accent">ThroneVerse</span></h2>
+            <p class="section-desc">A vast open world inspired by East African mythology and history</p>
+        </div>
+
+        <div class="game-grid">
+            <div class="game-card large">
+                <div class="card-image">
+                    <div class="placeholder-image kingdoms">
+                        <span>🏔️</span>
+                    </div>
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>12 Unique Kingdoms</h3>
+                    <p>From the snow-capped peaks of Kirinyaga to the coastal trading posts of Mombasa, each kingdom offers distinct cultures, quests, and political intrigue.</p>
+                    <a href="#" class="card-link">Explore Kingdoms →</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image">
+                    <div class="placeholder-image combat">
+                        <span>⚔️</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Strategic Combat</h3>
+                    <p>Master the spear, bow, and ancient magic in tactical real-time battles.</p>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image">
+                    <div class="placeholder-image story">
+                        <span>📜</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Epic Narrative</h3>
+                    <p>Your choices shape the fate of nations in this branching story.</p>
+                </div>
+            </div>
+
+            <div class="game-card wide">
+                <div class="card-image">
+                    <div class="placeholder-image multiplayer">
+                        <span>👥</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Kingdom vs Kingdom</h3>
+                    <p>Lead your clan in massive 50v50 online battles for territorial control and rare resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trailer Section -->
+    <section id="trailer" class="trailer-section">
+        <div class="trailer-bg"></div>
+        <div class="trailer-content">
+            <span class="section-tag light">CINEMATIC REVEAL</span>
+            <h2 class="section-title light">The Crown Awaits</h2>
+
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <video id="trailerVideo" poster="assets/trailer-poster.jpg" controls>
+                        <source src="assets/kenyan-thrones-trailer.mp4" type="video/mp4">
+                        <source src="assets/kenyan-thrones-trailer.webm" type="video/webm">
+                        <p>Your browser doesn't support HTML5 video. 
+                        <a href="assets/kenyan-thrones-trailer.mp4">Download the trailer</a> instead.</p>
+                    </video>
+                    <div class="video-overlay" id="videoOverlay">
+                        <button class="play-btn" id="playBtn">
+                            <span class="play-icon">▶</span>
+                        </button>
+                        <p class="video-hint">Click to play trailer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trailer-actions">
+                <a href="assets/kenyan-thrones-trailer.mp4" download class="btn btn-outline-light">
+                    <span>⬇</span> Download Trailer (HD)
+                </a>
+                <button class="btn btn-glow" onclick="shareTrailer()">
+                    <span>↗</span> Share
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Studio Section -->
+    <section id="studio" class="studio-section">
+        <div class="studio-container">
+            <div class="studio-visual">
+                <div class="studio-image">
+                    <div class="placeholder-image studio">
+                        <span>🏢</span>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="float-item" style="--delay:0s">🎨</div>
+                        <div class="float-item" style="--delay:0.5s">💻</div>
+                        <div class="float-item" style="--delay:1s">🎮</div>
+                        <div class="float-item" style="--delay:1.5s">🎵</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="studio-content">
+                <span class="section-tag">ABOUT US</span>
+                <h2 class="section-title">Nairobi's Premier<br><span class="accent">Game Studio</span></h2>
+                <p class="studio-text">
+                    Founded in 2023, ThroneVerse Studios is on a mission to put African stories on the global gaming map. 
+                    We're a team of 25+ passionate developers, artists, and storytellers crafting authentic experiences 
+                    that celebrate East African heritage.
+                </p>
+                <p class="studio-text">
+                    Our debut title, <strong>Kenyan Thrones</strong>, represents years of research into Kenyan history, 
+                    mythology, and diverse cultures—reimagined in an epic fantasy setting.
+                </p>
+
+                <div class="studio-stats">
+                    <div class="studio-stat">
+                        <span class="ss-number">25+</span>
+                        <span class="ss-label">Team Members</span>
+                    </div>
+                    <div class="studio-stat">
+                        <span class="ss-number">3</span>
+                        <span class="ss-label">Years Development</span>
+                    </div>
+                    <div class="studio-stat">
+                        <span class="ss-number">1</span>
+                        <span class="ss-label">Epic Vision</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="section-header">
+            <span class="section-tag">THE CREATORS</span>
+            <h2 class="section-title">Meet the <span class="accent">Visionaries</span></h2>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card founder">
+                <div class="team-image">
+                    <div class="placeholder-image founder-img">
+                        <span>👤</span>
+                    </div>
+                    <div class="team-badge">Founder</div>
+                </div>
+                <div class="team-info">
+                    <h3>Kevin Raymond</h3>
+                    <span class="team-role">CEO & Creative Director</span>
+                    <p>Visionary behind the ThroneVerse. Former Ubisoft narrative designer with a passion for African storytelling.</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <div class="placeholder-image">
+                        <span>🎨</span>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>Sarah Ochieng</h3>
+                    <span class="team-role">Art Director</span>
+                    <p>Leading the visual identity with 10+ years in concept art.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <div class="placeholder-image">
+                        <span>💻</span>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>James Mwangi</h3>
+                    <span class="team-role">Lead Programmer</span>
+                    <p>Engine architect building our custom ThroneEngine.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image">
+                    <div class="placeholder-image">
+                        <span>🎵</span>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>Amina Hassan</h3>
+                    <span class="team-role">Audio Director</span>
+                    <p>Crafting the soundscape with traditional instruments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="newsletter-section">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <span class="section-tag light">JOIN THE KINGDOM</span>
+                <h2 class="section-title light">Claim Your <span class="accent">Throne</span></h2>
+                <p>Get exclusive updates, alpha access, and behind-the-scenes content.</p>
+
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-glow">
+                            <span>Join Now</span>
+                            <span class="arrow">→</span>
+                        </button>
+                    </div>
+                    <label class="form-checkbox">
+                        <input type="checkbox" required>
+                        <span>I agree to receive updates about Kenyan Thrones</span>
+                    </label>
+                </form>
+
+                <div class="platform-badges">
+                    <span class="platform">PC</span>
+                    <span class="platform">PlayStation 5</span>
+                    <span class="platform">Xbox Series X</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="section-tag">GET IN TOUCH</span>
+                <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+                <p>Press inquiries, partnerships, or just want to say hello?</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Studio</strong>
+                            <p>Nairobi, Kenya<br>Kilimani Business Center</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>hello@throneverse.studio</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🌐</span>
+                        <div>
+                            <strong>Social</strong>
+                            <div class="social-links">
+                                <a href="#">Twitter</a>
+                                <a href="#">Discord</a>
+                                <a href="#">YouTube</a>
+                                <a href="#">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your message..." rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">👑</span>
+                    <span class="logo-text">THRONEVERSE</span>
+                </a>
+                <p>Crafting epic African gaming experiences from Nairobi to the world.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="Discord">💬</a>
+                    <a href="#" aria-label="YouTube">▶</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Game</h4>
+                    <ul>
+                        <li><a href="#game">Features</a></li>
+                        <li><a href="#trailer">Trailer</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Studio</h4>
+                    <ul>
+                        <li><a href="#studio">About</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 ThroneVerse Studios. All rights reserved.</p>
+            <p class="made-in">Made with ❤️ in Nairobi, Kenya</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
